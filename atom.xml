@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
-  <title>13cat官方博客</title>
-  <id>https://a13cat.host</id>
-  <updated>2020-09-19T17:05:53+08:00</updated>
+  <title>凌-官方博客</title>
+  <id>https://aling.host</id>
+  <updated>2020-09-19T22:01:55+08:00</updated>
   <subtitle>无论如何，都不要放弃希望</subtitle>
-  <link href="https://a13cat.host"></link>
+  <link href="https://aling.host"></link>
   <author>
-    <name>13cat官方博客</name>
+    <name>凌-官方博客</name>
   </author>
   <entry>
     <title>让你效率提升的pc软件</title>
     <updated>2020-09-19T16:00:00+08:00</updated>
-    <id>tag:a13cat.host,2020-09-19:/你绝对用得到的pc软件.html</id>
+    <id>tag:aling.host,2020-09-19:/你绝对用得到的pc软件.html</id>
     <content type="html"></content>
-    <link href="https://a13cat.host/你绝对用得到的pc软件.html"></link>
+    <link href="https://aling.host/你绝对用得到的pc软件.html"></link>
     <author>
-      <name>13cat</name>
+      <name>凌</name>
     </author>
   </entry>
   <entry>
     <title>官方资源/镜像分享</title>
     <updated>2020-07-22T16:31:00+08:00</updated>
-    <id>tag:a13cat.host,2020-07-22:/资源分享.html</id>
+    <id>tag:aling.host,2020-07-22:/资源分享.html</id>
     <content type="html"></content>
-    <link href="https://a13cat.host/资源分享.html"></link>
+    <link href="https://aling.host/资源分享.html"></link>
     <author>
-      <name>13cat</name>
+      <name>凌</name>
     </author>
   </entry>
   <entry>
     <title>Markdown，你总会用到的</title>
     <updated>2020-05-07T09:24:12+08:00</updated>
-    <id>tag:a13cat.host,2020-05-07:/markdown教程.html</id>
+    <id>tag:aling.host,2020-05-07:/markdown教程.html</id>
     <content type="html"></content>
-    <link href="https://a13cat.host/markdown教程.html"></link>
+    <link href="https://aling.host/markdown教程.html"></link>
     <author>
-      <name>13cat</name>
+      <name>凌</name>
     </author>
   </entry>
   <entry>
     <title>一个不专业但简单的MC开服教程</title>
     <updated>2020-05-06T17:03:12+08:00</updated>
-    <id>tag:a13cat.host,2020-05-06:/开一个mc服务器.html</id>
+    <id>tag:aling.host,2020-05-06:/开一个mc服务器.html</id>
     <content type="html"></content>
-    <link href="https://a13cat.host/开一个mc服务器.html"></link>
+    <link href="https://aling.host/开一个mc服务器.html"></link>
     <author>
-      <name>13cat</name>
+      <name>凌</name>
     </author>
   </entry>
 </feed>
