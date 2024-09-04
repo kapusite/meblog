@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="google" value="notranslate">
+<meta name="robots" content="index,follow">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="凌-官方博客">
+<meta name="twitter:description" content="无论如何，都不要放弃希望">
+<meta name="twitter:image:src" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+
+<meta property="og:url" content="http://www.chole.io/blog">
+<meta property="og:title" content="凌-官方博客">
+<meta property="og:description" content="无论如何，都不要放弃希望">
+<meta property="og:site_name" content="凌-官方博客">
+<meta property="og:image" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+<meta property="og:type" content="website">
+<meta name="robots" content="noodp">
+
+<meta itemprop="name" content="凌-官方博客">
+<meta itemprop="description" content="无论如何，都不要放弃希望">
+<meta itemprop="image" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+
+<link rel="canonical" href="http://www.chole.io/blog">
+
+<link rel="shortcut icon" href="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&spec=5">
+<link rel="apple-itouch-icon" href="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&spec=5">
+<link rel="stylesheet" href="/bundle/index.css">
+<script type="text/javascript">
+    var timeSinceLang = {
+        year: '年前',
+        month: '个月前',
+        day: '天前',
+        hour: '小时前',
+        minute: '分钟前',
+        second: '秒前'
+    };
+    var root = '';
+</script>
+
+<script type="text/javascript">
+    var conn, reloadTimer, connectTimer;
+    var connect = function() {
+        conn = new WebSocket('ws://' + location.host + '/live');
+        conn.onmessage = function(event) {
+            if (event.data === 'change') {
+                if (reloadTimer) clearTimeout(reloadTimer);
+                reloadTimer = setTimeout(function() {
+                    window.location.reload();
+                }, 200);
+            }
+        };
+        conn.onclose = function() {
+            if (connectTimer) clearTimeout(connectTimer);
+            connectTimer = setTimeout(function() {
+                connect();
+            }, 1000);
+        };
+    };
+    connect();
+</script>
+
+
+        <meta name="keywords" content="服务器,技术,">
+        <meta name="description" content="一个不专业但简单的MC开服教程">
+        <meta name="author" content="凌">
+        <title>一个不专业但简单的MC开服教程</title>
+    </head>
+    <body>
+        <article class="container">
+            <header class="header-wrap">
+  <a class="index" href="/">
+    <img class="logo" src="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5" />
+    凌-官方博客
+  </a>
+  <ul class="menu">
+      <li class="menu-item"><a href="/archive.html">归档🌟Daze!!</a></li>
+      <li class="menu-item"><a href="/tag.html">标签🐾</a></li>
+      <li class="menu-item"><a href="/atom.xml">RSS📕</a></li>
+  </ul>
+</header>
+
+            <article class="main article">
+                <h1 class="title">一个不专业但简单的MC开服教程</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5);"></span>
+                    <a class="name" href="/about.me.html">凌</a>
+                    
+                    <span class="date" data-time="1588755792"><span class="from"></span></span>
+                    
+                    <span class="tags"><a class="tag" href="/tag/%e6%9c%8d%e5%8a%a1%e5%99%a8/index.html">服务器</a><a class="tag" href="/tag/%e6%8a%80%e6%9c%af/index.html">技术</a></span>
+                </section>
+                <article class="content"><h2>开服务器需要什么配置跟网络环境</h2>
+
+<h5>如果使用的是自己的电脑或者VPS，你需要的如下 （当然，大多数情况下你并不需要考虑这些）</h5>
+
+<pre><code>中央处理器： 主频 *2.4Ghz* 以上或 *i5第四代* 及以上配置
+内存： 视人数决定，*ddr3 2G* 内存可以带动 *最少5人* 以此类推
+硬盘： 至少为硬盘的存取速度达到 *60MBps* 最好为优秀的固态硬盘
+网络： 至少有 *5MBps* 的上传速度  (拥有公网ip最佳)
+</code></pre>
+
+<h5>如果使用的是面板服，建议购买至少4G内存以上</h5>
+
+<h2>了解完了配置和网络环境之后？</h2>
+
+<h5>你需要的只是到<a href="https://www.minecraft.net/zh-hans/download/server/">MOJANG官网</a>下载他们的服务器,下载完毕后的文件应该是&rdquo;server.jar&rdquo;</h5>
+
+<h5>现在你可以新建一个文件夹，放入&rdquo;server.jar&rdquo;并新建一个文本文件,在文本文件输入<code>java -Xmx1024M -Xms1024M -jar server.jar nogui</code>保存并且重命名为&rdquo;start.bat&rdquo;</h5>
+
+<h5>到了这一步你会发现你一打开&rdquo;start.bat&rdquo;就会闪退，现在注意你的文件夹内的&rdquo;eula.txt&rdquo;文件，打开它并把&rdquo;eula=false&rdquo;修改为&rdquo;eula=true&rdquo;后保存他就会正常工作啦,接下来只需要等待一会即可</h5>
+
+<h5>到了你看见<code>Done (xx.xxxs)! For help, type &quot;help&quot;</code>就说明服务器成功开启了,如果你使用的是正版，这个时候你只需要使用与官网下载时显示的对应客户端输入<code>192.168.0.1:25565</code>即可进入服务器</h5>
+
+<h5>将server.properties文件内的&rdquo;online-mode&rdquo;后的字符设置为false即可关闭正版验证(无需使用正版即可进入)</h5>
+
+<h2>服务器也开了，我的朋友怎么进来？</h2>
+
+<h5>如果你是公网ip，你只需要打开百度搜索&rdquo;IP&rdquo;两个字然后去路由器映射&rdquo;25565&rdquo;端口，你的朋友输入你百度的IP地址+端口即可进入你的服务器</h5>
+
+<h5>如果你不懂路由器映射或者你是内网ip你可以使用&rdquo;路由侠&rdquo;软件来映射&rdquo;25565&rdquo;端口，复制给你的朋友直接可以进入你的服务器(推荐)</h5>
+
+<h3>到了这一步，估计你的朋友已经进到你的服务器了吧</h3>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5);"></div>
+                    <a class="name" href="/about.me.html">凌</a>
+                    <div class="intro">相信未来</div>
+                </section>
+                <section class="recommend">
+                    
+                    <section class="nav prev">
+                        <div class="head">上篇文章</div>
+                        <a class="link" href="/markdown%e6%95%99%e7%a8%8b.html">Markdown，你总会用到的</a>
+                    </section>
+                    
+                    
+                </section>
+                
+    <section id="disqus_thread"></section>
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//username.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        凌-官方博客 ©2019-
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">看累了吧，休息一下喝杯茶呗？🍵</span>
+</footer>
+
+        <script src="/bundle/index.js"></script>
+    </body>
+</html>

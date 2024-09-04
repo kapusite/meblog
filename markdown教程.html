@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="google" value="notranslate">
+<meta name="robots" content="index,follow">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="凌-官方博客">
+<meta name="twitter:description" content="无论如何，都不要放弃希望">
+<meta name="twitter:image:src" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+
+<meta property="og:url" content="http://www.chole.io/blog">
+<meta property="og:title" content="凌-官方博客">
+<meta property="og:description" content="无论如何，都不要放弃希望">
+<meta property="og:site_name" content="凌-官方博客">
+<meta property="og:image" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+<meta property="og:type" content="website">
+<meta name="robots" content="noodp">
+
+<meta itemprop="name" content="凌-官方博客">
+<meta itemprop="description" content="无论如何，都不要放弃希望">
+<meta itemprop="image" content="http://www.chole.io/bloghttp://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5">
+
+<link rel="canonical" href="http://www.chole.io/blog">
+
+<link rel="shortcut icon" href="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&spec=5">
+<link rel="apple-itouch-icon" href="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&spec=5">
+<link rel="stylesheet" href="/bundle/index.css">
+<script type="text/javascript">
+    var timeSinceLang = {
+        year: '年前',
+        month: '个月前',
+        day: '天前',
+        hour: '小时前',
+        minute: '分钟前',
+        second: '秒前'
+    };
+    var root = '';
+</script>
+
+<script type="text/javascript">
+    var conn, reloadTimer, connectTimer;
+    var connect = function() {
+        conn = new WebSocket('ws://' + location.host + '/live');
+        conn.onmessage = function(event) {
+            if (event.data === 'change') {
+                if (reloadTimer) clearTimeout(reloadTimer);
+                reloadTimer = setTimeout(function() {
+                    window.location.reload();
+                }, 200);
+            }
+        };
+        conn.onclose = function() {
+            if (connectTimer) clearTimeout(connectTimer);
+            connectTimer = setTimeout(function() {
+                connect();
+            }, 1000);
+        };
+    };
+    connect();
+</script>
+
+
+        <meta name="keywords" content="语言,技术,">
+        <meta name="description" content="Markdown，你总会用到的">
+        <meta name="author" content="凌">
+        <title>Markdown，你总会用到的</title>
+    </head>
+    <body>
+        <article class="container">
+            <header class="header-wrap">
+  <a class="index" href="/">
+    <img class="logo" src="http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5" />
+    凌-官方博客
+  </a>
+  <ul class="menu">
+      <li class="menu-item"><a href="/archive.html">归档🌟Daze!!</a></li>
+      <li class="menu-item"><a href="/tag.html">标签🐾</a></li>
+      <li class="menu-item"><a href="/atom.xml">RSS📕</a></li>
+  </ul>
+</header>
+
+            <article class="main article">
+                <h1 class="title">Markdown，你总会用到的</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5);"></span>
+                    <a class="name" href="/about.me.html">凌</a>
+                    
+                    <span class="date" data-time="1588814652"><span class="from"></span></span>
+                    
+                    <span class="tags"><a class="tag" href="/tag/%e8%af%ad%e8%a8%80/index.html">语言</a><a class="tag" href="/tag/%e6%8a%80%e6%9c%af/index.html">技术</a></span>
+                </section>
+                <article class="content"><h2>什么是Markdown，我为什么要学习Markdown</h2>
+
+<h6>Markdown是一种轻量级标记语言，多用在个人博客(例如：本博客、CSDN)、小说站、笔记软件(例如：印象笔记、有道云笔记)</h6>
+
+<h6>它们通常为<code>.md</code>或<code>.markdown</code>的后缀名称，并且不止一种主题，例如<code>GitHub</code>上就有多种主题可选择</h6>
+
+<h6>它可以非常快速的记录一篇笔记或者写出一篇文章并导出为<code>Epub Word PDF HTML</code>甚至是图片，你不需要任何的语言基础都可以使用一些基本功能</h6>
+
+<hr />
+
+<h2>实例</h2>
+
+<h3>1.标题</h3>
+
+<h6>如果你需要添加文章标题，直接在标题文字前加上<code>#</code>即可,一共有六级标题可选,他们是:</h6>
+
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+
+<h6>效果看起来是这样的:</h6>
+
+<h1>一级标题</h1>
+
+<h2>二级标题</h2>
+
+<h3>三级标题</h3>
+
+<h4>四级标题</h4>
+
+<h5>五级标题</h5>
+
+<h6>六级标题</h6>
+
+<hr />
+
+<h3>2.字体</h3>
+
+<h6>Markdown兼容html的字体格式且拥有更简单的一些方法,例如&lt;hr&gt;在Markdown可作为分割线</h6>
+
+<pre><code>*倾斜*        (呃...怎么在这里就斜了)
+_倾斜_
+**加粗**
+__加粗__
+***又斜又粗***
+___又斜又粗___
+~~假装被删掉了~~
+</code></pre>
+
+<h6>效果看起来是这样的:</h6>
+
+<p><em>倾斜</em><br />
+<em>倾斜</em><br />
+<strong>加粗</strong><br />
+<strong>加粗</strong><br />
+<strong><em>又斜又粗</em></strong><br />
+<strong><em>又斜又粗</em></strong><br />
+<del>假装被删掉了</del></p>
+
+<hr />
+
+<h3>3.列表</h3>
+
+<h6>无序列表只需要将<code>* + -</code>放在文字前面即可，有序列表直接使用数字+.即可</h6>
+
+<pre><code>* 第一项
++ 第一项
+- 第一项
+
+1.第一项
+2.第二项
+
+列表嵌套:
+1. 第一项：
+    - 我是第一个被套进去的！
+    - 我是第二个被套进去的！
+2. 第二项：
+    - 我是第一个被套进去的！
+    - 我是第二个被套进去的！
+</code></pre>
+
+<h6>效果看起来是这样的</h6>
+
+<ul>
+<li>第一项</li>
+<li>第一项</li>
+<li>第一项</li>
+</ul>
+
+<p>1.第一项<br />
+2.第二项</p>
+
+<hr />
+
+<h3>4.突出</h3>
+
+<h6>你只需要在需要突出的文字前面加上<code>&gt;</code>即可</h6>
+
+<pre><code>&gt; 我突出了
+</code></pre>
+
+<h6>效果看起来是这样的</h6>
+
+<blockquote>
+<p>我突出了</p>
+</blockquote>
+
+<hr />
+
+<h3>5.代码区块</h3>
+
+<h6>需要添加代码可以直接使用 ` 包住即可</h6>
+
+<pre><code class="language-javascript">什么都没有？哈哈哈，现在这个就是的
+function(){
+    var a = i
+}
+</code></pre>
+
+<h6>他们在编辑器看起来是这样的，javascript可不加，加上为指定格式</h6>
+
+<p><img src="data:image/gif;base64,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" data-src="http://r.photo.store.qq.com/psc?/V12llyIJ4e9g1j/y0ous4JbTKQLd9b0ICks32akNiITQd6rv4yAdE3*iBetQwGWYlg.n9702rs0fdulChcCmN*HR*O1eix3MeoG0GKuzxSXYWcO3iujt0HsXDs!/r" alt="" /></p>
+
+<hr />
+
+<h3>6.超链接和图片</h3>
+
+<h6>超链接和图片使用方法差不多，图片只需要在超链接前加上<code>!</code>即可</h6>
+
+<pre><code>[图片链接](http://r.photo.store.qq.com/psc?/V12llyIJ4e9g1j/y0ous4JbTKQLd9b0ICks3740YRbZCvWApAjfbLyQ4B676l3rKuIbPab.exWclB4Mk.nArdNtigbxVSSX3j5z0HbcQv5MMRX6i2C1lH.I5WE!/r)
+![图片](http://r.photo.store.qq.com/psc?/V12llyIJ4e9g1j/y0ous4JbTKQLd9b0ICks3740YRbZCvWApAjfbLyQ4B676l3rKuIbPab.exWclB4Mk.nArdNtigbxVSSX3j5z0HbcQv5MMRX6i2C1lH.I5WE!/r)
+</code></pre>
+
+<h6>效果看起来是这样的</h6>
+
+<p><a href="http://r.photo.store.qq.com/psc?/V12llyIJ4e9g1j/y0ous4JbTKQLd9b0ICks3740YRbZCvWApAjfbLyQ4B676l3rKuIbPab.exWclB4Mk.nArdNtigbxVSSX3j5z0HbcQv5MMRX6i2C1lH.I5WE!/r">图片链接</a>
+<img src="data:image/gif;base64,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" data-src="http://r.photo.store.qq.com/psc?/V12llyIJ4e9g1j/y0ous4JbTKQLd9b0ICks3740YRbZCvWApAjfbLyQ4B676l3rKuIbPab.exWclB4Mk.nArdNtigbxVSSX3j5z0HbcQv5MMRX6i2C1lH.I5WE!/r" alt="图片" />
+图片Pixiv Id : 59472298</p>
+
+<hr />
+
+<h3>7.表格</h3>
+
+<h6>表格非常的简单，直接使用<code>|</code>和<code>-</code>即可</h6>
+
+<pre><code>|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+</code></pre>
+
+<h6>他们看起来是这样的</h6>
+
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+
+<h3>到了这里，基本上日常用的技巧都已经讲完了，如果你还想继续深入了解，你可以访问<a href="https://www.runoob.com/markdown/md-advance.html">菜鸟教程高级技巧</a>来进行更深入的学习，感谢你看到了这里，祝你学习愉快！</h3>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(http://q2.qlogo.cn/headimg_dl?dst_uin=1665513024&amp;spec=5);"></div>
+                    <a class="name" href="/about.me.html">凌</a>
+                    <div class="intro">相信未来</div>
+                </section>
+                <section class="recommend">
+                    
+                    
+                    <section class="nav next">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="/%e5%bc%80%e4%b8%80%e4%b8%aamc%e6%9c%8d%e5%8a%a1%e5%99%a8.html">一个不专业但简单的MC开服教程</a>
+                    </section>
+                    
+                </section>
+                
+    <section id="disqus_thread"></section>
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//username.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        凌-官方博客 ©2019-
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">看累了吧，休息一下喝杯茶呗？🍵</span>
+</footer>
+
+        <script src="/bundle/index.js"></script>
+    </body>
+</html>
