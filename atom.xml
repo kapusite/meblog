@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>凌-官方博客</title>
   <id>http://www.chole.io/blog</id>
-  <updated>2024-09-04T21:21:35+08:00</updated>
+  <updated>2024-09-04T22:21:33+08:00</updated>
   <subtitle>无论如何，都不要放弃希望</subtitle>
   <link href="http://www.chole.io/blog"></link>
   <author>
@@ -9,10 +9,9 @@
   </author>
   <entry>
     <title>Markdown，你总会用到的</title>
-    <updated>2020-05-07T09:24:12+08:00</updated>
+    <updated>2020-05-07T01:24:12+08:00</updated>
     <id>tag:www.chole.io,2020-05-07:/blog/markdown教程.html</id>
-    <content type="html"></content>
-    <link href="http://www.chole.io/blog/markdown教程.html"></link>
+    <link href="http://www.chole.io/blog/markdown教程.html" rel="alternate"></link>
     <author>
       <name>凌</name>
     </author>
@@ -21,8 +20,7 @@
     <title>一个不专业但简单的MC开服教程</title>
     <updated>2020-05-06T17:03:12+08:00</updated>
     <id>tag:www.chole.io,2020-05-06:/blog/开一个mc服务器.html</id>
-    <content type="html"></content>
-    <link href="http://www.chole.io/blog/开一个mc服务器.html"></link>
+    <link href="http://www.chole.io/blog/开一个mc服务器.html" rel="alternate"></link>
     <author>
       <name>凌</name>
     </author>
